@@ -3,6 +3,7 @@ $secondary-color: #ffd000;
 $show-home-img: true;
 $home-img: url(../img/bg2.jpg) no-repeat center / cover;
 $background-opacity: 0.5;
+$profile-portrait: url(../img/oleg_danshin.png) no-repeat center/cover;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;

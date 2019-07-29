@@ -1,4 +1,4 @@
-$primary-color: #014262;
+$primary-color: #444;
 $secondary-color: #ffd000;
 $show-home-img: true;
 $home-img: url(../img/bg2.jpg) no-repeat center / cover;
@@ -26,6 +26,15 @@ $profile-portrait: url(../img/oleg_danshin.png) no-repeat center/cover;
         z-index: -1;
       }
     }
+  }
+}
+
+// set text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
   }
 }
 
